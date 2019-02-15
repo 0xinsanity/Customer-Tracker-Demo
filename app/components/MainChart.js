@@ -28,9 +28,11 @@ export default class MainChart extends LineChart {
                     drawGridLines:false,
                     axisMinimum:0,
                     labelCount: this.props.greatestNum
-                }
+                },
             }}
-            
+
+
+            maxVisibleValueCount={0}           
             drawGridBackground={false}
             borderColor={processColor('white')}
             borderWidth={2}
@@ -44,8 +46,6 @@ export default class MainChart extends LineChart {
             pinchZoom={false}
             doubleTapToZoomEnabled={false}
 
-            dragDecelerationEnabled={false}
-            dragDecelerationFrictionCoef={0.99}
 
             keepPositionOnRotation={false}
             onChange={(event) => console.log(event.nativeEvent)}

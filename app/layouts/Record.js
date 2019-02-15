@@ -247,8 +247,7 @@ export default class Record extends Component {
                 <MainButton
                     title="New Costumer"
                     style={{
-                    marginTop: '50%',
-                    position: 'relative'
+                    marginTop: 100,
                 }}
                     onPress={this
                     .addToCost

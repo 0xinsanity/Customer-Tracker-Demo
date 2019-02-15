@@ -237,8 +237,8 @@ export default class Compare extends Component {
                             </TableWrapper>
                             
                             <TableWrapper style={{width: '24%'}}>
-                                <Cell data={tableHead[2]} textStyle={[styles.table_text, {color: '#D8D8D8', textAlign: 'right', fontFamily: 'ProximaNova-Bold'}]} style={{height: 30, width: '100%'}}/>
-                                <Col data={y_axis2} heightArr={[30]} textStyle={[styles.table_text, {color: '#D8D8D8',textAlign: 'right'}]} style={[styles.table, { width: '100%'}]} />
+                                <Cell data={tableHead[2]} textStyle={[styles.table_text, { textAlign: 'right', fontFamily: 'ProximaNova-Bold'}]} style={{height: 30, width: '100%'}}/>
+                                <Col data={y_axis2} heightArr={[30]} textStyle={[styles.table_text, {textAlign: 'right'}]} style={[styles.table, { width: '100%'}]} />
                             </TableWrapper>
                         </Table>
                     </ScrollView>

@@ -81,7 +81,6 @@ export default class Results extends Component {
                       color: processColor('white'),
                       fillAlpha: 0,
                       valueTextSize: 0,
-                      valueFormatter: "##.000",
                     }
                   }],
                 }
@@ -95,7 +94,7 @@ export default class Results extends Component {
                   fontSize:10,
                   drawGridLines:false,
                   labelCount:10,
-                  labelRotationAngle:90
+                  labelRotationAngle:90,
                 }
               }
             })
